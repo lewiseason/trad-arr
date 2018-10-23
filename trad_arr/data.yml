@@ -1,0 +1,68 @@
+---
+# Sentences form the basic structure of a song title, augmented by variables.
+sentences:
+  - {positive_short_adjective} {name}
+  - Humours of {person_or_drink}
+  - The Hills of {place}
+  - The Trip To {place}
+  - The {adjective} Fields of {place}
+  - The {adjective} Sailor
+  - The {animal} in the {time_of_day}
+  - The {drink}
+  - The {mood} {jobtitle}
+  - The {place}
+  - The {liquid_container} of {drink}
+  - {name}'s Farewell To {place}
+  - {name}'s Favourite
+  - {name}'s Lament
+  - {name}'s Lament For His {number_word} Wife
+  - {name}'s Wedding'
+  - {last_name}'s
+
+adjectives:
+  - Brisk Young
+  - Fair Young
+  - Handsome
+  - Lone
+  - Long Tall
+  - Rosy-Cheeked
+  - Tall
+
+first_names:
+  - Alec
+  - Anna
+  - Callum
+  - Charlie
+  - Charlotte
+  - Daniel
+  - Eilidh
+  - Ellie
+  - Finn
+  - Grace
+  - Harris
+  - Isabella
+  - Jack
+  - Katie
+  - Lewis
+  - Orla
+  - Sophie
+  - Thomas
+
+job_titles:
+  # - Domestic Loss Adjuster
+  - Piper
+  - Sailor
+
+times_of_day:
+  - Morning
+  - Afternoon
+  - Evening
+
+positive_short_adjectives:
+  - Fair
+  - Fine
+
+liquid_containers:
+  - Glass
+  - Mug
+  - Pint
