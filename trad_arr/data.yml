@@ -1,25 +1,25 @@
----
 # Sentences form the basic structure of a song title, augmented by variables.
-sentences:
-  - {positive_short_adjective} {name}
-  - Humours of {person_or_drink}
-  - The Hills of {place}
-  - The Trip To {place}
-  - The {adjective} Fields of {place}
-  - The {adjective} Sailor
-  - The {animal} in the {time_of_day}
-  - The {drink}
-  - The {mood} {jobtitle}
-  - The {place}
-  - The {liquid_container} of {drink}
-  - {name}'s Farewell To {place}
-  - {name}'s Favourite
-  - {name}'s Lament
-  - {name}'s Lament For His {number_word} Wife
-  - {name}'s Wedding'
-  - {last_name}'s
+sentence:
+  - "{positive_short_adjective} {name}"
+  - "Humours of {name}"
+  - "The Hills of {place}"
+  - "The Trip To {place}"
+  - "The {adjective} Fields of {place}"
+  - "The {adjective} Sailor"
+  - "The {animal} in the {time_of_day}"
+  - "The {drink}"
+  - "The {mood} {job_title}"
+  - "The {place}"
+  - "The {liquid_container} of {drink}"
+  - "{name}'s Farewell To {place}"
+  - "{name}'s Favourite"
+  - "{name}'s Lament"
+  - "{name}'s Lament For His {number_word} Wife"
+  - "{name}'s Wedding"
+  - "{last_name}'s"
+  - "Speed the {farm_equipment}"
 
-adjectives:
+adjective:
   - Brisk Young
   - Fair Young
   - Handsome
@@ -28,7 +28,7 @@ adjectives:
   - Rosy-Cheeked
   - Tall
 
-first_names:
+first_name:
   - Alec
   - Anna
   - Callum
@@ -48,21 +48,69 @@ first_names:
   - Sophie
   - Thomas
 
-job_titles:
+last_name:
+  - Brown
+  - Clark
+  - McDonald
+  - Mitchell
+  - Morrison
+  - Murray
+  - Peterson
+  - Reid
+  - Robertson
+  - Smith
+  - Watson
+
+job_title:
   # - Domestic Loss Adjuster
+  - Barleyman
+  - Beekeeper
+  - Moulder
   - Piper
   - Sailor
 
-times_of_day:
+time_of_day:
   - Morning
   - Afternoon
   - Evening
 
-positive_short_adjectives:
+positive_short_adjective:
   - Fair
   - Fine
 
-liquid_containers:
+liquid_container:
   - Glass
   - Mug
   - Pint
+
+animal:
+  - Crow
+
+place:
+  - Kirkintilloch
+  - Milngavie
+  - Ecclefechan
+  - Auchtermuchty
+  - Culzean
+  - Freuchie
+  - Anstruther
+  - Kirkcudbright
+
+mood:
+  - Hostile
+
+drink:
+  - Beer
+  - Wine
+
+number_word:
+  - Second
+  - Third
+  - Eighteenth
+  - Seventy-Fourth
+
+farm_equipment:
+  - Plough
+  - Cultivator
+  - Subsoiler
+  - Harrow
